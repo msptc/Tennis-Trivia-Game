@@ -1,0 +1,62 @@
+/* I couldn't get the image to load as the background if I tried to pull it from my images folder. 
+I think it should be url(assets/images/tennisballs.jpg), but that didn't work when I tried it. It loads fine from the website url though. 
+I had the same problem with the crystal collector assignment. */
+
+/* body with tennis ball image as the background */
+body{
+    background-image: url("http://southerncaliforniatennis.org/wp-content/uploads/2016/02/photo-of-tennis-balls-format-for-blog.jpg");
+    font-size: 14px;
+}
+
+/* container that holds the quiz's title, questions and answer choices */
+#container{
+    width: 60%;
+    background: rgb(66, 167, 221);
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+}
+
+header{
+    text-align: center;
+    border-bottom: black dashed 1px;
+}
+
+header p{
+    padding: 0;
+    margin-top: 5px;
+    color: black;
+}
+
+section{
+   min-height: 400px; 
+}
+
+/* submit button */
+input[type='submit']{
+    background: rgb(228, 232, 18);
+    border: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+/* results that will be hidden until quiz is submitted or time has run out */
+#results h3{
+    background:  rgb(228, 232, 18);
+    padding: 10px;
+    margin: 10px 0; 
+
+}
+
+#results span{
+    color: black;
+    font-weight: bold;
+}
+
+#timeRemaining{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    background:  rgb(228, 232, 18);
+}

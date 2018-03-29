@@ -1,1 +1,1 @@
-This is a tennis trivia game. The player is given 2 minutes to answer the 4 questions on the quiz. If 2 minutes elapses, the amount of answers the player has selected is submitted. HTML, Bootstrap, JavaScript and jQuery are used.
+This is a tennis trivia game. The player is given 2 minutes to answer the 4 questions on the quiz. If 2 minutes elapses, the amount of answers the player has selected is submitted. The player is able to submit their answers before the 2 minutes pass by clicking the submit button. HTML, Bootstrap, JavaScript and jQuery are used.
